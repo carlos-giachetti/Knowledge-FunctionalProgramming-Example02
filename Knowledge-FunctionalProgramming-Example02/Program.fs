@@ -12,8 +12,13 @@ let sumOfSquaresOf10FirstIntegers =
 
 [<EntryPoint>]
 let main argv =
-    printfn "Sum of squares of the first ten integer numbers = %i" sumOfSquaresOf10FirstIntegers
+    printfn "Knowledge-FunctionalProgramming-Example02"
+    printfn "-----------------------------------------\n"
 
+    printfn "Sum of squares of the first ten integer numbers = %i" 
+            sumOfSquaresOf10FirstIntegers
+
+    printfn "\nPress any key to quit this program..."
     Console.ReadKey() |> ignore
 
     0 // return an integer exit code
